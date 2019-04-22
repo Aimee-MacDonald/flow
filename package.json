@@ -2,9 +2,12 @@
   "name": "flow",
   "version": "1.0.0",
   "description": "flow",
+  "engines": {
+    "node": "9.4.0"
+  },
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
